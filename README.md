@@ -1,4 +1,4 @@
-# aes
+# aes (CBC)
 1번 줄
 ```js
 window.AdvancedEncryptionStandardfips197 = 'Advanced_Encryption_Standard';
