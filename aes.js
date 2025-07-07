@@ -420,5 +420,9 @@ window[window.AdvancedEncryptionStandardfips197].Decryption = (function(IN, W, P
     }
     return out;
 });
-window.AdvancedEncryptionStandardfips197 = undefined;
+Object.freeze(window[window.AdvancedEncryptionStandardfips197].Rcon);
+Object.freeze(window[window.AdvancedEncryptionStandardfips197].SBox[0]);
+Object.freeze(window[window.AdvancedEncryptionStandardfips197].SBox[1]);
+Object.freeze(window[window.AdvancedEncryptionStandardfips197]);
+delete AdvancedEncryptionStandardfips197;
 //btoa(String.fromCharCode.apply(null, d))
